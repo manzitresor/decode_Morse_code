@@ -34,3 +34,11 @@ end
 def decode_word(word)
   word.split.map { |char| decode_char(char) }.join
 end
+
+def decode_message(message)
+  word = message.split('   ')
+  sentence = word.map { |morse| decode_word(morse) }
+  sentence.join(' ')
+end
+
+puts decode_message('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
