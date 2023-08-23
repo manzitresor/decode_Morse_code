@@ -33,7 +33,7 @@ During your vacation at the seaside, time after time you find old bottles with p
 <details>
 <summary>Ruby</summary>
   <ul>
-    <li><a href="https://www.ruby-lang.org/en/">PostgreSQL</a></li>
+    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
   </ul>
 </details>
 
@@ -54,11 +54,7 @@ During your vacation at the seaside, time after time you find old bottles with p
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-This repository includes files with plain SQL that can be used to recreate a database:
-
-- Use schema.sql to create all tables.
-- Use data.sql to populate tables with sample data.
-- Check queries.sql for examples of queries that can be run on a newly created database. Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
@@ -68,14 +64,11 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
 ```sh
   git clone https://github.com/manzitresor/decode_Morse_code.git
   cd decode_Morse_code
 ```
---->
+
 
 <!-- AUTHORS -->
 
